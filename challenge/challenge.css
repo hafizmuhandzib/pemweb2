@@ -1,0 +1,98 @@
+/* Mengatur tampilan umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+
+    background-color: #1997BD;
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+.header-img{
+    width: 100%;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+section{
+    background-color: #A4D0D1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%; /* Fleksibel, dengan lebar minimal 45% */
+    text-align: center;
+}
+
+.section-img{
+    width: 25%;
+    height: auto;
+
+}
+aside{
+    background-color: #DBC457;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%; /* Fleksibel, dengan lebar minimal 45% */
+    text-align: center;
+}
+.tabel-pengalaman {
+    width: 50%;
+    border-collapse: collapse; 
+    background-color: #A4D0D1;
+    border-color: #f9f9f9;
+    margin: 10px auto;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
